@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;               /* вся высота окна */
+  display: flex;
+  justify-content: center;     /* центр по горизонтали */
+  align-items: center;         /* центр по вертикали */
+  background: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;      /* элементы в столбик */
+  align-items: center;         /* выравнивание по центру */
+  gap: 12px;                   /* расстояние между полями */
+}
+
+
+input {
+  font-size: 15px;
+  padding: 8px;
+  width: 12em;
+  box-sizing: border-box;
+  border: #c77973 3px ridge;
+  border-radius: 23px;
+}
+
+.button {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  width: 12em;
+  height: 2.5em;
+  cursor: pointer;
+  border-radius: 23px;
+  border: ridge #c77973 3px;
+  transition: 0.5s;
+}
+
+.button:hover {
+    border: ridge #ffffff 3px;
+    background-color: #c77973;
+    font-size: 23px;
+    color: white;
+}
