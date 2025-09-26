@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;               /* вся высота окна */
+  display: flex;
+  justify-content: center;     /* центр по горизонтали */
+  align-items: center;         /* центр по вертикали */
+  background: #f0f0f0;
+}
+
+button {
+    font-size: 45px;
+    border: #c77973 3px ridge;
+    border-radius: 23px;
+    font-weight: 100;
+    width: 12em;
+    height: 2.5em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    font-size: 23px;
+    border: ridge #ffffff 3px;
+    background-color: #c77973;
+    color: white;
+}
